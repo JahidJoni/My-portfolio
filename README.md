@@ -2,7 +2,7 @@
 
 This project is developed by react js.
 
-## Live Site : 
+## Live Site : https://jh-joni.netlify.app/
 
 
 # Used Technology :

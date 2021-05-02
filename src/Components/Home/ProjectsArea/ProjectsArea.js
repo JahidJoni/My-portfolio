@@ -41,11 +41,11 @@ const ProjectsArea = () => {
       }, []);
     return (
         <section className="text-center mt-3 p-3">
-            <h3 style={{backgroundColor: '#0f0f0f', color: '#FDE3A7', padding: '0.5rem 2rem', display: 'inline', borderRadius: '0.3rem'}}>SOME OF MY RECENT PROJECTS</h3>
+            <h3 style={{backgroundColor: '#0f0f0f', color: '#FDE3A7', padding: '0.5rem 1.8rem', borderRadius: '0.3rem'}}>SOME OF MY RECENT PROJECTS</h3>
           <div className="d-flex justify-content-center">
-          <div className="row mt-5">
+          <div className="row mt-5 text-center">
              {
-                projects.map(project => <div className="col-md-4 justify-content-center" data-aos="fade-up-left">
+                projects.map(project => <div className="col-md-4" data-aos="fade-up-left">
                     <div class="card" style={{ width: '18rem' }}>
                         <img className="img-fluid" src={project.image} class="card-img-top" alt="" style={{height: '190px'}} />
                         <div class="card-body details">
