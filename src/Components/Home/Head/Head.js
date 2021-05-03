@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import profile from '../../../images/profile.jpg'
 import { useSpring, animated} from 'react-spring';
 import Typical from 'react-typical'
+import './Head.css'
 
 const Head = () => {
     const [state, toggle] = useState(true)
@@ -33,7 +34,7 @@ const Head = () => {
                             />
                         </animated.div>
 
-                        <a href={`https://drive.google.com/uc?export=download&id=1xw469zQP3bnjK1H0KK-QD6_YMZ2d_58i`} className="btn btn-sm mt-3 px-3" style={{ backgroundColor: '#00e991' }}>Download My Resume</a>
+                        <a href={`https://drive.google.com/uc?export=download&id=1xw469zQP3bnjK1H0KK-QD6_YMZ2d_58i`} className="btn btn-sm button mt-3 px-3">Download My Resume</a>
                         <div onClick={() => toggle(!state)}>
                         </div>
 

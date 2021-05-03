@@ -1,0 +1,8 @@
+.button{
+    background-color: #0f0f0f00;
+    border: 1px solid #00e991;
+    color: burlywood;
+}
+.button:hover{
+    background-color: #00e991;
+}

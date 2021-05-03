@@ -1,7 +1,7 @@
 import React from 'react';
-import car from '../../images/car.png'
-import book from '../../images/book.png'
-import ride from '../../images/ride.png'
+import car from '../../images/tablet-in-hand-mockup.png'
+import book from '../../images/notebook-mockup-on-desk.png'
+import ride from '../../images/imac-screen-mockup.png'
 import fantasy from '../../images/fantasy.png'
 import epl from '../../images/league.png'
 import ticket from '../../images/ticket.png'
@@ -55,10 +55,10 @@ const Projects = () => {
             <h2 className="text-center" style={{color: '#00e991'}}>My Recent Projects you can see.</h2>
             <div className="row mt-5">
                 {
-                    projects.map(project => <div className="col-md-6">
+                    projects.map(project => <div className="col-md-6" data-aos="zoom-out-left">
                         <div class="card mb-3" style={{ maxWidth: '540px' }}>
                             <div class="row g-0">
-                                <div class="col-md-4">
+                                <div class="col-md-4 d-flex align-items-center">
                                     <img className="img-fluid" src={project.image} alt="..." />
                                 </div>
                                 <div class="col-md-8">

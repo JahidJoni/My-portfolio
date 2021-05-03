@@ -3,8 +3,8 @@ import photo from '../../images/main.jpg'
 
 const Resume = () => {
     return (
-        <section className="">
-            <div className="">
+        <section>
+            <div>
                 <div style={{ color: '#fde3a7', backgroundColor: '#0f0f0f' }} className="text-center py-5">
                     <img src={photo} alt="" style={{ border: '3px solid #FDE3A7', borderRadius: '42%', width: '10%' }} />
                     <h2 className="pt-4">JAHID HASAN JONI</h2>
@@ -17,9 +17,9 @@ const Resume = () => {
                         service website.
                     </p>
                 </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 p-3">
+                <div className="container" data-aos="zoom-out-left">
+                    <div className="row p-3">
+                        <div className="col-md-6">
                             <h3>Experiences</h3>
                             <ul>
                                 <li> Built an ecommerce web app to sell products
@@ -65,7 +65,11 @@ const Resume = () => {
                         </div>
                     </div>
                 </div>
+               <div className="text-center py-3">
+               <a href={`https://drive.google.com/uc?export=download&id=1xw469zQP3bnjK1H0KK-QD6_YMZ2d_58i`} className="btn mt-3 px-3" style={{ backgroundColor: '#00e991' }}>Download My Resume</a>
+               </div>
             </div>
+            
         </section>
     );
 };
