@@ -3,12 +3,6 @@ import frontEnd from '../../../images/icons8-html-100.png'
 import backEnd from '../../../images/icons8-source-code-100.png'
 import git from '../../../images/icons8-github-48.png'
 import photoShop from '../../../images/icons8-adobe-photoshop-100.png'
-import html from '../../../images/icons8-html-5-48.png'
-import css from '../../../images/icons8-css3-30.png'
-import react from '../../../images/icons8-react-64.png'
-import javaScript from '../../../images/icons8-javascript-50.png'
-import node from '../../../images/icons8-nodejs-32.png'
-import mongo from '../../../images/icons8-mongodb-48.png'
 import MockSkill from './MockSkill';
 
 const skills = [
