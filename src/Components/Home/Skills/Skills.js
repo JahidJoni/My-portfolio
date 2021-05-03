@@ -9,7 +9,6 @@ import react from '../../../images/icons8-react-64.png'
 import javaScript from '../../../images/icons8-javascript-50.png'
 import node from '../../../images/icons8-nodejs-32.png'
 import mongo from '../../../images/icons8-mongodb-48.png'
-import Particle from '../../Particles/Particle';
 import MockSkill from './MockSkill';
 
 const skills = [
@@ -35,32 +34,6 @@ const skills = [
     }
 ]
 
-const skillSet = [
-    {
-        icon: html,
-        name: "HTML5"
-    },
-    {
-        icon: css,
-        name: "CSS3"
-    },
-    {
-        icon: javaScript,
-        name: "JavaScript"
-    },
-    {
-        icon: react,
-        name: "React JS"
-    },
-    {
-        icon: node,
-        name: "Node JS"
-    },
-    {
-        icon: mongo,
-        name: "Mongo DB"
-    }
-]
 
 const Skills = () => {
     return (
