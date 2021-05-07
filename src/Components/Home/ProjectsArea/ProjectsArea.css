@@ -1,0 +1,14 @@
+.btn-link{
+    border: 1px solid #00e99733;
+    border-radius: 10%;
+}
+.my-card{
+    border: 1.5px solid #00e997bb;
+    box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.363);
+}
+.project-icon{
+    color: rgb(83, 83, 83);
+}
+.btn-link:hover{
+    background-color: rgba(10, 221, 133, 0.185);
+}

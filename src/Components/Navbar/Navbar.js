@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto mx-5">
                         <li class="nav-item mx-4">
-                            <Link to='/' class="nav-link active" aria-current="page" href="#">Home</Link>
+                            <Link to='/' class="nav-link" aria-current="page" href="#">Home</Link>
                         </li>
                         <li class="nav-item mx-4">
                             <Link to='/projects' class="nav-link" href="#">Projects</Link>
