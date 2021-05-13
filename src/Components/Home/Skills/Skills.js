@@ -4,7 +4,6 @@ import backEnd from '../../../images/icons8-source-code-100.png'
 import git from '../../../images/icons8-github-48.png'
 import photoShop from '../../../images/icons8-adobe-photoshop-100.png'
 import MockSkill from './MockSkill';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const skills = [
