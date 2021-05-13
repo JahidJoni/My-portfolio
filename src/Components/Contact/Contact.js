@@ -10,7 +10,7 @@ const Contact = () => {
               </div> <br/>
            <form action="https://getform.io/f/9e45335c-0029-4c4b-b53c-cf63ca0fecf8" method="POST" className="mt-2">
                 <label style={{color: '#FDE3A7'}} className="form-label">Your Name</label>
-                <input  className="form-control w-25" type="text" name="name"/> <br/>
+                <input  className="form-control w-50" type="text" name="name"/> <br/>
                 <label style={{color: '#FDE3A7'}} className="form-label">Your Email</label> <br/>
                 <input type="email" className="form-control w-50" name="email" /> <br/>
                 <label style={{color: '#FDE3A7'}} className="form-label">Your Massage</label>

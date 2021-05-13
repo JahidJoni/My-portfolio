@@ -4,6 +4,7 @@ import backEnd from '../../../images/icons8-source-code-100.png'
 import git from '../../../images/icons8-github-48.png'
 import photoShop from '../../../images/icons8-adobe-photoshop-100.png'
 import MockSkill from './MockSkill';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const skills = [
@@ -38,7 +39,7 @@ const skillsBar = [
         faClass: "fab fa-css3"
     }, {
         name: "Javascript",
-        faClass: "fab fa-js"
+        faClass: "faJs"
     }, {
         name: "TypeScript",
         faClass: "fab fa-sass"
@@ -92,14 +93,14 @@ const Skills = () => {
                             <div className="text-center"> <img src={skill.icon} class="card-img-top img-fluid w-25" alt="" /></div>
                             <div class="card-body">
                                 <h5 className="card-title text-center" style={{ color: "#00e991" }}>{skill.name}</h5>
-                                <p style={{textAlign: 'justify'}} class="card-text"><small>{skill.details}</small></p>
+                                <p style={{ textAlign: 'justify' }} class="card-text"><small>{skill.details}</small></p>
                             </div>
                         </div>
                     </div>)
                 }
             </div>
             <div className="mt-5">
-                <h2 style={{ color: "#00e991" }} className="text-center mt-4">Skill-Set</h2>
+                <h2 style={{ color: "#00e991" }} className="text-center mt-4">Skill-Set </h2> 
             </div>
             <div id="Skills">
                 <div className="row d-flex justify-content-center skills">
