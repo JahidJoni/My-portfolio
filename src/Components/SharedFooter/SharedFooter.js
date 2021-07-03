@@ -16,10 +16,10 @@ const SharedFooter = () => {
                 </div>
                 <ul class="list-inline">
                     <li class="list-inline-item"> <Link to='/'>Home </Link></li>
-                    <li class="list-inline-item"><a href="#">Services</a></li>
-                    <li class="list-inline-item"><a href="#">About</a></li>
-                    <li class="list-inline-item"><a href="#">Terms</a></li>
-                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                    <li class="list-inline-item"><Link href="#">Services</Link></li>
+                    <li class="list-inline-item"><Link href="#">About</Link></li>
+                    <li class="list-inline-item"><Link href="#">Terms</Link></li>
+                    <li class="list-inline-item"><Link href="#">Privacy Policy</Link></li>
                 </ul>
                 <p class="copyright">JAHID JONI © 2022</p>
             </footer>
