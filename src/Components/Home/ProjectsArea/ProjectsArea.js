@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import car from '../../../images/tablet-in-hand-mockup.png'
 import book from '../../../images/notebook-mockup-on-desk.png'
 import ride from '../../../images/imac-screen-mockup.png'
-import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTelegramPlane, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -34,23 +33,14 @@ const projects = [
 ]
 
 const ProjectsArea = () => {
-    useEffect(() => {
-        AOS.init({
-            offset: 100,
-            duration: 400,
-            easing: 'ease-in-sine',
-            delay: 100,
-          });
-        AOS.refresh();
-      }, []);
       
     return (
         <section className="container mt-3 p-3">
-            <h3 className="text-center" style={{backgroundColor: '#0f0f0f', color: '#FDE3A7', padding: '0.5rem 1.8rem', borderRadius: '0.3rem'}}>SOME OF MY RECENT PROJECTS</h3>
+            <h3 data-aos="zoom-out" className="text-center" style={{backgroundColor: '#0f0f0f', color: '#FDE3A7', padding: '0.5rem 1.8rem', borderRadius: '0.3rem'}}>SOME OF MY RECENT PROJECTS</h3>
           <div className="row mt-5">
              {
-                projects.map(project => <div className="col-md-4 d-flex justify-content-center my-2" data-aos="fade-up-left">
-                    <div class="card my-card" style={{ width: '19rem' }}>
+                projects.map(project => <div className="col-md-4 d-flex justify-content-center my-2">
+                    <div class="card my-card" style={{ width: '19rem' }} data-aos="zoom-in-up">
                         <img className="img-fluid" src={project.image} class="card-img-top" alt="" style={{height: '190px'}} />
                         <div class="card-body details">
                             <h5 class="card-title" style={{color: '#0f0f0f'}}>{project.name}</h5>

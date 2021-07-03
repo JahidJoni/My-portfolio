@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <section className="mt-5" style={{backgroundColor: '#0f0f0f'}}>
             <div className="row">
-                <div style={{backgroundColor: '#00e991'}} className="col-md-6" data-aos="fade-right">
+                <div style={{backgroundColor: '#00e991'}} className="col-md-6">
                     <div className="text-dark text-start p-5">
                     <h2>Just Say Hi.</h2>
                     <p>
@@ -33,7 +33,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6" data-aos="fade-left">
+                <div className="col-md-6">
                     <Contact></Contact>
                 </div>
             </div>

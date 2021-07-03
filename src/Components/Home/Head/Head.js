@@ -8,10 +8,10 @@ const Head = () => {
     const [state, toggle] = useState(true)
     const { x } = useSpring({ from: { x: 0 }, x: state ? 1 : 0, config: { duration: 2000 } })
     return (
-        <section style={{ backgroundColor: '#0F0F0F' }}>
+        <section style={{ backgroundColor: '#0F0F0F' }} data-aos="zoom-in">
             <div className="row p-5">
                 <div className="col-md-6 d-flex justify-content-center">
-                    <img src={profile} alt="" style={{ border: '3px solid #FDE3A7', borderRadius: '50%', width: '50%' }} data-aos="fade-right" />
+                    <img src={profile} alt="" style={{ border: '3px solid #FDE3A7', borderRadius: '50%', width: '50%' }} data-aos="fade-right"/>
                 </div>
                 <div className="col-md-6 d-flex justify-content-center">
                     <div className="mt-5" style={{ color: '#FDE3A7', textAlign: 'end' }}>

@@ -8,6 +8,7 @@ import {
     Section,
     Description,
 } from 'vertical-timeline-component-react';
+import SharedFooter from '../SharedFooter/SharedFooter'
 
 
 const Resume = () => {
@@ -34,7 +35,7 @@ const Resume = () => {
                         first-class web applications. Developed some projects like e-commerce web app, customer web portal and ride booking service website.
                     </p>
                 </div>
-                <div className="container" data-aos="zoom-out-left">
+                <div className="container">
                     <div className="row p-3">
                         <div className="col-md-6 p-3">
                             <h3>Skills - </h3>
@@ -118,10 +119,11 @@ const Resume = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-center py-1">
+                <div className="text-center py-4">
                     <a href={`https://drive.google.com/uc?export=download&id=1xw469zQP3bnjK1H0KK-QD6_YMZ2d_58i`} className="btn px-3" style={{ backgroundColor: '#00e991' }}>Download My Resume</a>
                 </div>
             </div>
+            <SharedFooter></SharedFooter>
         </section>
     );
 };

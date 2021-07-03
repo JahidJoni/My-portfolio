@@ -2,7 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AOS from 'aos';
 import reportWebVitals from './reportWebVitals';
+
+  AOS.init({
+      offset: 100,
+      duration: 400,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  AOS.refresh();
 
 ReactDOM.render(
   <React.StrictMode>

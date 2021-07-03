@@ -9,6 +9,7 @@ import js3 from '../../images/js-2.png'
 import js4 from '../../images/Js.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
+import SharedFooter from '../SharedFooter/SharedFooter'
 
 let technology = [
     <div className="p-4" style={{ backgroundColor: 'white' }}>
@@ -34,8 +35,8 @@ let sports = [
 
 const Blogs = () => {
     return (
-        <section className="container mt-5">
-            <div className="text-center">
+        <section>
+            <div className="text-center mt-5">
                 <h3>A Versatile <span style={{ color: '#00e991' }}>Content Writer</span>.</h3>
                 <h4>Passionate about writing blogs about sports, media and of course technology!</h4>
             </div>
@@ -53,6 +54,7 @@ const Blogs = () => {
                     </Carousel>
                 </div>
             </div>
+            <SharedFooter></SharedFooter>
         </section>
     );
 };

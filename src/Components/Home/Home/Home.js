@@ -7,13 +7,13 @@ import Summary from '../Summary/Summary';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Head></Head>
             <ProjectsArea></ProjectsArea>
             <Summary></Summary>
             <Skills></Skills>
             <Footer></Footer>
-        </div>
+        </>
     );
 };
 

@@ -87,7 +87,7 @@ const Skills = () => {
             <h2 style={{ color: "#00e991" }} className="text-center">What I do?</h2>
             <div className="row">
                 {
-                    skills.map(skill => <div className="col-md-3 mt-4 d-flex justify-content-center" data-aos="zoom-out-left">
+                    skills.map(skill => <div className="col-md-3 mt-4 d-flex justify-content-center">
                         <div class="card" style={{ width: '18rem' }}>
                             <div className="text-center"> <img src={skill.icon} class="card-img-top img-fluid w-25" alt="" /></div>
                             <div class="card-body">
@@ -99,7 +99,7 @@ const Skills = () => {
                 }
             </div>
             <div className="mt-5">
-                <h2 style={{ color: "#00e991" }} className="text-center mt-4">Skill-Set </h2> 
+                <h2 style={{ color: "#00e991" }} className="text-center mt-4">Skill-Set</h2> 
             </div>
             <div id="Skills">
                 <div className="row d-flex justify-content-center skills">
