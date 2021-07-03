@@ -5,7 +5,6 @@ import ride from '../../images/imac-screen-mockup.png'
 import fantasy from '../../images/fantasy.png'
 import epl from '../../images/league.png'
 import ticket from '../../images/ticket.png'
-import { Link } from 'react-router-dom'
 import './Projects.css'
 import SharedFooter from '../SharedFooter/SharedFooter';
 
